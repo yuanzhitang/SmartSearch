@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UserSecretsId>1a5fcede-4272-4538-8a0b-3da0549c87c5</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MCPSniffer.Core\MCPSniffer.Core.csproj" />
+    <ProjectReference Include="..\MCPSniffer.Interface\MCPSniffer.Interface.csproj" />
+    <ProjectReference Include="..\MCPSniffer.Model\MCPSniffer.Model.csproj" />
+  </ItemGroup>
+
+</Project>
